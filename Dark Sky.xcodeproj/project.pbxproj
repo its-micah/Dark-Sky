@@ -13,6 +13,7 @@
 		C73674EE1E569F2300AD4CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73674ED1E569F2300AD4CE3 /* Assets.xcassets */; };
 		C73674F11E569F2300AD4CE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73674EF1E569F2300AD4CE3 /* LaunchScreen.storyboard */; };
 		C73674FC1E569F2300AD4CE3 /* Dark_SkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73674FB1E569F2300AD4CE3 /* Dark_SkyTests.swift */; };
+		C73675071E56B2CA00AD4CE3 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73675061E56B2CA00AD4CE3 /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C73674F71E569F2300AD4CE3 /* Dark SkyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dark SkyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73674FB1E569F2300AD4CE3 /* Dark_SkyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dark_SkyTests.swift; sourceTree = "<group>"; };
 		C73674FD1E569F2300AD4CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73675061E56B2CA00AD4CE3 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				C73674E61E569F2300AD4CE3 /* AppDelegate.swift */,
 				C73674E81E569F2300AD4CE3 /* ViewController.swift */,
+				C73675061E56B2CA00AD4CE3 /* CurrentWeather.swift */,
 				C73674EA1E569F2300AD4CE3 /* Main.storyboard */,
 				C73674ED1E569F2300AD4CE3 /* Assets.xcassets */,
 				C73674EF1E569F2300AD4CE3 /* LaunchScreen.storyboard */,
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C73674E91E569F2300AD4CE3 /* ViewController.swift in Sources */,
+				C73675071E56B2CA00AD4CE3 /* CurrentWeather.swift in Sources */,
 				C73674E71E569F2300AD4CE3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
