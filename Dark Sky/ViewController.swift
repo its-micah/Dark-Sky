@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    private let key = "0e10185923bb59676b987eacb6261b5a"
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let baseURL = URL(string: "https://api.darksky.net/forecast/\(key)/")
+        let location = "41.8661,-88.1070"
+        let forecastURL = URL(string: location, relativeTo: baseURL)
+        
     }
 
     override func didReceiveMemoryWarning() {
